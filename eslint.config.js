@@ -64,6 +64,7 @@ export default defineConfig([
       'react/self-closing-comp': 'error',
       '@typescript-eslint/consistent-type-imports': 'error',
       'react-hooks/exhaustive-deps': 'warn',
+      '@typescript-eslint/no-explicit-any': 'warn',
 
       // Prettier
       'prettier/prettier': 'error',

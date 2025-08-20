@@ -2,7 +2,7 @@ import { ErrorBoundaryProvider } from './ErrorBoundary'
 import { I18nProvider } from './I18nProvider'
 import { QueryProvider } from './QueryProvider'
 import { ThemeProvider } from './ThemeProvider'
-import { ToastProvider } from './ToastProvider/ui/ToastProvider'
+import { ToastProvider } from './ToastProvider'
 
 import type { ReactNode } from 'react'
 

@@ -1,4 +1,4 @@
-import { createBrowserRouter, type RouteProps } from 'react-router'
+import { createBrowserRouter } from 'react-router'
 
 import { Desktop } from '@/pages/Desktop'
 import { Finder } from '@/pages/Finder'

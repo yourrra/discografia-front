@@ -25,7 +25,7 @@ export interface Theme {
     active: string
   }
 
-  typography: {
+  typography?: {
     fontFamily: string
     sizes: Record<string, string>
   }
