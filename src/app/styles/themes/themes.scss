@@ -1,0 +1,53 @@
+// Базовые CSS переменные (устанавливаются через JavaScript)
+:root {
+  // Цвета (динамически устанавливаются)
+  --color-primary: #007aff;
+  --color-secondary: #5856d6;
+  --color-background: #f2f2f7;
+  --color-surface: #fff;
+  --color-text: #1c1c1e;
+  --color-text-secondary: #8e8e93;
+  --color-success: #34c759;
+  --color-error: #ff3b30;
+  --color-warning: #ff9500;
+  --color-border: #d1d1d6;
+  --color-hover: #e5e5ea;
+  --color-active: #d1d1d6;
+
+  // Тени (динамически устанавливаются)
+  --shadow-small: 0 1px 3px rgb(0 0 0 / 10%);
+  --shadow-medium: 0 4px 12px rgb(0 0 0 / 15%);
+  --shadow-large: 0 8px 32px rgb(0 0 0 / 20%);
+
+  // Радиусы (динамически устанавливаются)
+  --radius-small: 6px;
+  --radius-medium: 12px;
+  --radius-large: 20px;
+}
+
+// Глобальные стили с использованием переменных
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+// Специфичные стили для тем (если нужны)
+// [data-theme='light'] {
+//   // Стили только для светлой темы
+//   .special-light-only {
+//     display: block;
+//   }
+// }
+
+// [data-theme='dark'] {
+//   // Стили только для темной темы
+//   .special-dark-only {
+//     display: block;
+//   }
+
+//   // Можем переопределить отдельные переменные
+//   --custom-dark-accent: #ff6b6b;
+// }
