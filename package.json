@@ -66,6 +66,10 @@
     "vite": "^7.1.2"
   },
   "lint-staged": {
+    "*.scss": [
+      "stylelint --fix",
+      "prettier --write"
+    ],
     "*.{tsx,jsx,ts,js,mjs,cjs}": [
       "eslint --fix",
       "prettier --write"
